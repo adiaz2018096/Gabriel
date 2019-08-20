@@ -1,0 +1,4 @@
+salario minimo agricola
+no agricola
+costo de la canasta basica
+analize la relacion entre ambas cantidades y las ampliaciones para el bienestar familiar.
