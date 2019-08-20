@@ -1,0 +1,144 @@
+Clase #2 ----------------14/08/2019
+
+Comandos de Git:
+pwd:
+	 Para indicar en  que directorio me encuentro (directorio es una carpeta)
+
+cd:
+	 Sirve para situarse en un directorio.
+
+cs:
+	 Subir un nivel de dictorio.
+
+ls:
+	 Muestra en forma de lista todo lo que se encuentra del directorio donde nos encontramos.
+
+Clear:
+	 Borra la pantalla.
+
+ll:
+	Lista de forma mas completa.
+
+mkdir: 
+	Para crear directorios 
+
+touch:  
+	Cra ficheros de archivos.
+
+exit: 	
+	Sale  de la sesion GIT
+
+
+Empieza el Uso de GIT BASH
+
+git init: Tolo lo que se escriba dentro de la carpeta se encontrara dentro de git. Aca esta el historial de versiones 
+	y se encuentra oculto dentro de la carpeta. Esta instruccion solo se ejecuta una vez
+
+Cuenta de GIT HUB: 
+		1.Hay que usar correo de kinal
+		2.Inicial de su primer nombre (seguido de primer apellido y seguido de Numero de carnet)
+		
+git add: 
+	Lleva el control de los archivos que se agregan
+
+git add  . :  (Lleva espacio entre add y el punto)
+	Sirva para agragar todo
+
+git commint: 
+	Comando que indica que esta lista alguna funcionalidad para hacer una version de codigo
+
+git commit -m "Comentario" (espacio entre commit y -m)
+	Archivos enviados al repositorio añadiendo los comentarios de los cambios
+
+git add origin <URL> 
+	Especifica el origen de nuestro repositorio. La URL se obtiene del repositorio en GitHub.
+
+	Ejemoplo:
+		git remote add origin https://github.com/
+
+git status: 
+	Permite  ver lo que tenemos en el archivo, este sirve para ver si hay cambios o no por subir al repositorio
+	(si es necesario crear un commint o no)
+
+git commit -am " Comentario descriptivo" (ene ste es importante decir los archivos que se estan cambiando)
+	Sirve para enviar archivos al repositorio es decir, los cambios realizados.
+
+Push:
+	Publica lo que se encuentra en nuestro servidor local y llevarlo al servidor remoto de GitHub
+  									         
+	Ejemplo: 
+		git push -u origin master
+
+Pull: 
+	Trae los cambios de nuestro repositorio remoto y los actualiza al repositorio local.
+
+git push origin master
+	Es el nombre que se le coloca al repositorio remoto al que se conecta.
+
+Branch: 
+	Es una rama diferente a la rama mastery se utiliza de forma colaborativa y con ella podremos asignar
+	tareas y ordenar de mejor manera nuestro proyecto.
+
+Merge:  Es una fucion de ramas	
+
+	Lo que hace es fucionar los dos vectores en un tercer vector de forma ordenada.
+	Un requisito es que los dos vectores esten ordenadas 
+	Es un metodo recursivo dentro de GitHub
+	No le importa que hayan cosas repetidas.
+	
+	Ordenamiento de burbuja: el ordenar un vector es dos ciclos y compara la primera posicion con la segunda 
+	e intercambia de lugar
+
+	Metodo de grafos: Da el mejor metodo para encontrar la salida 
+
+	Como Funciona:
+	Agragando el tamaño del primer vector con el segundo vector
+	
+
+Configurar Credenciales del repositorio
+	git config  --global user.email "Cual  es el correo que se esta usando en el repositorio"
+	git config --global user.name "Usuario que se esta usando en el repositorio"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

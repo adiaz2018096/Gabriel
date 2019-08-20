@@ -1,0 +1,24 @@
+Clase #3--------------------------------- 19/08/2019
+Pasos Para GitHub
+git int
+git remote add origin  <URL>
+git commit -m "Comentario"
+git push -u origin master
+
+Los repositorios: cada persistencia que se haga en el proyecto la va a descargar, cada uno de los que ponga en el proyecto
+los agregara en el repositorio local, pero donde se guardan? Estan en el usuario que se use y en una carpeta que dice ".m2"
+Si no se tiene esa carpeta es xq no se a creado un proyecto de marge.
+
+
+JSF (Java Server Faces)
+Los JSF  son fremeworlss son MVC(Modelo Vista Cntrolador) basadas en API de Servtest que proporcionan
+un conjunto de componentes en forma de etiquetas definidas en pagimas 
+XHTML mediante el frameworck Facelets
+
+Que proporcionan los JSF
+	Define las interfaces de usuario mediante vistas que agrupan 
+	componentes graficos
+	Conexion de los componentes graficos con los datos de la aplicacion 
+	mediante los denominados beans
+	Conversion de datos y validacion automatica de la entrada del usuario
+	Navegacxion entre las vistas
